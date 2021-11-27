@@ -1,0 +1,15 @@
+openapi: 3.0.3
+info:
+  title: Cats api
+  description: Cats api
+  version: 1.0.0
+servers:
+  - url: 'https://cats-api.com'
+paths:
+  /cats:
+    get:
+      summary: Get all cats
+      operationId: getAllCats
+      responses:
+        '200':
+          description: OK
